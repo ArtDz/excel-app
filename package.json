@@ -1,0 +1,49 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "excel app on pure js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtDz/excel-app.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Dzugaev Batradz dzugaev1998@mail.ru",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "bugs": {
+    "url": "https://github.com/ArtDz/excel-app/issues"
+  },
+  "homepage": "https://github.com/ArtDz/excel-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.6.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass": "^1.45.2",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
