@@ -46,7 +46,6 @@ module.exports = (env, argv) => {
   }
 
   return {
-    // target: 'web', // пишется для devServera
     context: path.resolve(__dirname, 'src'),
     entry: {
       main: [
