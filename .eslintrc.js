@@ -9,6 +9,11 @@ module.exports = {
   rules: {
     'semi': 'off',
     'comma-dangle': 'off',
-    'require-jsdoc': 'off'
+    'require-jsdoc': 'off',
+    'arrow-parens': 'off',
+    'operator-linebreak': 'off',
+    'no-trailing-spaces': 'off',
+    'max-len': 'off',
+    'no-unused-vars': 'off'
   }
 };
