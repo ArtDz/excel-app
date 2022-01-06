@@ -12,16 +12,15 @@
 
 
 ::-webkit-scrollbar {
-  width: 24px; /* ширина для вертикального скролла */
+  width: 8px; /* ширина для вертикального скролла */
   height: 8px; /* высота для горизонтального скролла */
   background-color: #b9c1d5;
 }
 
 /* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
-  background-color: #253861;
-  border-radius: 9em;
-  box-shadow: inset 1px 1px 10px #f3faf7;
+  background-color: #30333d;
+  border-radius: 9px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
