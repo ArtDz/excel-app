@@ -14,6 +14,8 @@ module.exports = {
     'operator-linebreak': 'off',
     'no-trailing-spaces': 'off',
     'max-len': 'off',
-    'no-unused-vars': 'off'
+    'no-unused-vars': 'off',
+    'no-case-declarations': 'off',
+    'padded-blocks': 'off'
   }
 };
