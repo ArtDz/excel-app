@@ -1,5 +1,5 @@
 import {Page} from '../core/Page';
-import {createStore} from '../core/createStore';
+import {createStore} from '../core/store/createStore';
 import {rootReducer} from '../redux/rootReducer';
 import {debounce, storage} from '../core/utils';
 import {Excel} from '../components/excel/Excel';
@@ -20,8 +20,9 @@ export class ExcelPage extends Page {
     const store = createStore(rootReducer, normolizeInitialState(state))
 
     const stateListener = debounce(state => {
+      console.log('state')
       storage(storageName(params), state)
-    }, 0)
+    }, 300)
 
     store.subscribe(stateListener)
 

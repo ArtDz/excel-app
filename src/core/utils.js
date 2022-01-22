@@ -46,6 +46,7 @@ export function debounce(fn, wait) {
       // eslint-disable-next-line no-invalid-this
       fn.apply(this, args)
     }
+    clearTimeout(timeout)
     timeout = setTimeout(later, wait)
   }
 }
