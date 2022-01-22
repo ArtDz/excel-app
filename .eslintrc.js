@@ -16,6 +16,7 @@ module.exports = {
     'max-len': 'off',
     'no-unused-vars': 'off',
     'no-case-declarations': 'off',
-    'padded-blocks': 'off'
+    'padded-blocks': 'off',
+    'no-undef': 'off'
   }
 };

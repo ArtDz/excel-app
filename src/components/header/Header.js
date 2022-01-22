@@ -17,7 +17,7 @@ export class Header extends ExcelComponent {
   }
 
   prepare() {
-    // this.onInput(event)
+    this.onInput = debounce(this.onInput, 300)
   }
 
   toHTML() {

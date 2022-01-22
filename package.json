@@ -4,6 +4,8 @@
   "description": "excel app on pure js",
   "main": "webpack.config.js",
   "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production"
   },
@@ -15,6 +17,9 @@
     "js",
     "excel"
   ],
+  "jest":{
+    "testEnvironment": "jsdom"
+  },
   "author": "Dzugaev Batradz dzugaev1998@mail.ru",
   "license": "ISC",
   "browserslist": "> 0.25%, not dead",
